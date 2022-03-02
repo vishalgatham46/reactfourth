@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import {Feedbackform} from "./Feedbackform";
-import "./style.css"
 
 class App extends Component{
     render(){
