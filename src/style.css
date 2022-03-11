@@ -1,62 +1,67 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
 body{
-    background-color: rgb(92, 98, 158);
+    background-color:powderblue;
 }
-h1{
-    color: rgb(39, 6, 158);
-    text-align: center;
-}
-.input-area{
-    font-size: 24px;
-    border: 2px solid black;
-    background-color: rgb(197, 165, 196);
-    border-radius: 10px;
-    width: 15%;
-    height: 40px;
-    text-align: center;
-    margin-top: 20px;
-}
-
-#main-container{
-    width: 100%;
-    text-align: center;
-    font-size: 24px;
-}
-
-.submit-btn{
-    font-size: 20px;
-    width: 10%;
-    height: 35px;
-    border: 2px solid black;
-    background-color: rgb(143, 58, 58);
-    border-radius: 20px;
-    margin-top: 30px; 
-}
-
-
-#dynamic-container{
-    width: 50%;
-    margin-top: 60px;
-    margin-left: 350px;
-    display: flex;
-    flex-wrap: wrap;
-    border: 2px solid black;
-    justify-content: center;
-    align-items: center;
-}
-
-#mini-container{
-    width: 70%;
-    height: 40px;
-    font-size: 16px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.link{
+    font-size: 35px;
+    font-weight: bold;
     padding: 10px;
-    border: 1px solid blue;
-    background-color: lightcyan;
-    border-radius: 15px;
+    text-decoration: none;
+    margin: 30px;
+    color:indigo;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.link:hover{
+   transform: scale(1.2);
+   color: blueviolet;
+}
+.link:focus{
+    transform: scale(1.5);
+    font-weight: bolder;
+    color: blueviolet;
+}
+.navBar{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background-color:rgb(118, 177, 235);
+}
+
+.home-container{
+    font-size: 40px;
+    margin: 100px;
+    color:saddlebrown;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+.contact-comp{
+    font-size: 40px;
+    margin: 100px;
+    color:saddlebrown;
+    font-weight: bold;
+    font-style: italic;
+   
+}
+
+.add-btn{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    font-size: 25px;
+    position: absolute;
+    top: 120px;
+    left: 1200px;
+    background-color: aqua;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: darkblue
+}
+.add-btn:hover{
+    cursor: pointer;
+    transform: scale(1.2);
 }
